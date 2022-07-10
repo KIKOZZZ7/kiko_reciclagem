@@ -27,7 +27,7 @@ Config.Mensagem2 = 'Pressione ~INPUT_CONTEXT~ para jogar a Caixa'
 
 Config.Progressbar1 = 'A separar os resíduos...'
 
-Config.Not1 = 'Caixa entregada com sucesso'
+Config.Not1 = 'Caixa entregue com sucesso'
 
 
 -- Itens - Server 
