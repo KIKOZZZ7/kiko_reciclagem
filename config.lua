@@ -1,6 +1,6 @@
 Config = {}
 
-Config.Trigger = 'esx:getShndscfhwechtnbuoiwperyaredObjndscfhwechtnbuoiwperyect'
+Config.Trigger = 'esx:getSharedObject'
 
 Config.ComecarTrabalho = { -- blip começar
     vec3(1196.73,-3261.92,5.5)
