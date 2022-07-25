@@ -234,10 +234,12 @@ end
 
 
 function GuardarBox()
+	local distrair  = true
     ESX.Game.DeleteObject(object)
     IsBox = false
 	exports['zcmg_notificacao']:Alerta("", Config.Not1, 4500, 'informacao')
-    TriggerServerEvent('zcmg_kiko_reciclagem:dar_item')
+    TriggerServerEvent('zcmg_kiko_reciclagem:dar_item',distrair)
+	distrair = false
 end
 
 function PegarCaixa()
